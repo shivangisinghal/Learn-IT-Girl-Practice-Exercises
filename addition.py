@@ -1,0 +1,5 @@
+print ("We are going perform the addition of two numbers\n Enter two numbers\n")
+a= input("Number One:")
+b= input("Number Two:")
+c= int(a)+int(b)
+print ("Sum of %s and %s is %s" %(a,b,c))
