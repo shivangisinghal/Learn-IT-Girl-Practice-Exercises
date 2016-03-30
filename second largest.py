@@ -1,0 +1,6 @@
+N= print(input("How many numbers do you want to add in the list?"))
+print("Enter Numbers:")
+mylist=list(map(int,input().split()))
+mylist.sort()
+mylist.reverse()
+print(mylist[1])
